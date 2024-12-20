@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "chickens-give-feathers",
+	"version": "${version}",
+	"name": "Chickens Give Feathers",
+	"description": "This mod make the chickens drop feathers when they lay an egg!",
+	"authors": [
+		"ArisuwuMei"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mei.arisuwu.chickensgivefeathers.Mod"
+		]
+	},
+	"mixins": [
+		"chickens-give-feathers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
