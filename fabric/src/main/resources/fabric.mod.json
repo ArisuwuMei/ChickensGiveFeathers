@@ -16,10 +16,12 @@
       "io.github.arisuwumei.chickengivefeathers.fabric.FabricMod"
     ]
   },
+  "mixins": [
+    "chickensgivefeathers.mixins.json"
+  ],
   "depends": {
     "fabricloader": "*",
-    "minecraft": ">=1.21.2",
-    "java": ">=21",
-    "fabric-api": "*"
+    "minecraft": "<1.21.2",
+    "java": ">=21"
   }
 }
