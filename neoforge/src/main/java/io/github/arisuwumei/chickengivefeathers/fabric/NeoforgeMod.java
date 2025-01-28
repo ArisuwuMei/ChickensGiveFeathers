@@ -6,6 +6,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.LootTableLoadEvent;
 
+@net.neoforged.fml.common.Mod(Mod.ID)
 @EventBusSubscriber(modid = Mod.ID)
 public class NeoforgeMod
 {
