@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "$id",
+  "version": "$version",
+  "name": "$name",
+  "description": "$description",
+  "authors": $authors,
+  "contact": {
+    "sources": "https://github.com/ArisuwuMei/ChickensGiveFeathers"
+  },
+  "license": "$license",
+  "icon": "$icon",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.arisuwumei.chickengivefeathers.fabric.FabricMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
